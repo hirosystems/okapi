@@ -11,7 +11,7 @@ keywords = [ "rust", "openapi", "swagger" ]
 categories = [ "web-programming" ]
 
 [dependencies]
-schemars = { version = "0.8", features = ["uuid1"], git = "https://github.com/hirosystems/schemars.git", branch = "feat-chainhook-fixes" }
+schemars = { version = "0.8.16", features = ["uuid1"], git = "https://github.com/hirosystems/schemars.git", branch = "feat-chainhook-fixes" }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 log = "0.4"
